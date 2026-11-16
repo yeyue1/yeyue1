@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="ttl dsc">
+  <title id="ttl">花益 · HUA YI — Embedded Systems Engineer</title>
+  <desc id="dsc">Animated dark banner with flowing circuit traces, traveling signal pulses and a rotating dial.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050C17"/>
+      <stop offset="0.5" stop-color="#0A2A45"/>
+      <stop offset="1" stop-color="#0B5F6E"/>
+    </linearGradient>
+    <linearGradient id="sig" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#56E0C1"/>
+      <stop offset="0.55" stop-color="#7DD3FC"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#56E0C1" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#E0FAFF" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#56E0C1" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#CFFAFE" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="chipglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#56E0C1" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
+
+  <rect y="0" width="1200" height="3" fill="url(#sheen)">
+    <animate attributeName="x" values="-1200;1200" dur="7.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <g fill="none" stroke="url(#sig)" stroke-opacity="0.42" stroke-width="2" stroke-linecap="round">
+    <path d="M0 64h94l38 38h58" stroke-dasharray="13 9">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 250h68l46-46h62" stroke-dasharray="13 9">
+      <animate attributeName="stroke-dashoffset" values="0;-220" dur="7.4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200 66h-94l-38 38h-56" stroke-dasharray="13 9">
+      <animate attributeName="stroke-dashoffset" values="0;220" dur="6.9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1200 254h-66l-46-46h-60" stroke-dasharray="13 9">
+      <animate attributeName="stroke-dashoffset" values="0;220" dur="8.2s" repeatCount="indefinite"/>
+    </path>
+    <path d="M1092 0v52" stroke-opacity="0.25"/>
+    <path d="M118 340v-56" stroke-opacity="0.25"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle r="3.6" fill="#6EE7D8">
+      <animateMotion dur="6s" repeatCount="indefinite" path="M0 64h94l38 38h58" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    </circle>
+    <circle r="3.6" fill="#7DD3FC">
+      <animateMotion dur="8.2s" repeatCount="indefinite" path="M1200 254h-66l-46-46h-60" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    </circle>
+    <circle r="3.2" fill="#A78BFA">
+      <animateMotion dur="7.4s" repeatCount="indefinite" path="M0 250h68l46-46h62" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
+    </circle>
+  </g>
+
+  <g transform="translate(80 96)" filter="url(#chipglow)">
+    <rect width="136" height="136" rx="26" fill="#040A14" fill-opacity="0.8" stroke="#75E6D0" stroke-width="2"/>
+    <rect x="31" y="31" width="74" height="74" rx="12" fill="#0A4C59" stroke="#A7F3D0" stroke-width="2"/>
+    <path d="M45 53h17v29h29M53 44v16m29-16v16M53 105v16m29-16v16M31 53H14m17 29H14m91-29h17m-17 29h17" fill="none" stroke="#D1FAE5" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="79" cy="51" r="5" fill="#7DD3FC">
+      <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="96" cy="105" r="3.4" fill="#6EE7D8">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <text x="262" y="132" fill="#FFFFFF" font-size="52" font-weight="750" letter-spacing="1.5">花益 · HUA YI</text>
+    <text x="265" y="178" fill="#A7F3D0" font-size="23" font-weight="600" letter-spacing="2.4">EMBEDDED SYSTEMS ENGINEER</text>
+    <g>
+      <rect x="265" y="200" width="12" height="21" rx="2" fill="#56E0C1">
+        <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
+      </rect>
+      <text x="288" y="218" fill="#D8F3F5" font-size="19" letter-spacing="0.4">RTOS Kernel · Linux BSP · AUTOSAR BSW · Industrial IoT · Edge AI</text>
+    </g>
+  </g>
+
+  <g transform="translate(1088 96)" fill="none" stroke="#B6F2E8" stroke-width="2" stroke-opacity="0.6">
+    <circle cx="0" cy="0" r="42" stroke-dasharray="5 11" stroke-opacity="0.5">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="24" stroke-opacity="0.75"/>
+    <path d="M-58 0h26M32 0h26M0-58v26M0 32v26" stroke-opacity="0.4"/>
+  </g>
+
+  <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', sans-serif">
+    <circle cx="268" cy="292" r="4.2" fill="#4ADE80">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="282" y="298" fill="#8FB3C0" font-size="15" letter-spacing="1.6">OPEN TO COLLABORATION  ·  github.com/yeyue1</text>
+  </g>
+
+  <rect y="337" width="1200" height="3" fill="url(#sig)" opacity="0.55"/>
+</svg>
