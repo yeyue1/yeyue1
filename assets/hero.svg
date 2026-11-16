@@ -1,123 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="ttl dsc">
-  <title id="ttl">Embedded Systems — RTOS, Linux BSP, AUTOSAR, Edge AI</title>
-  <desc id="dsc">Animated dark banner with flowing circuit traces, traveling signal pulses and a rotating dial.</desc>
-
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050C17"/>
-      <stop offset="0.5" stop-color="#0A2A45"/>
-      <stop offset="1" stop-color="#0B5F6E"/>
-    </linearGradient>
-    <linearGradient id="sig" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#56E0C1"/>
-      <stop offset="0.55" stop-color="#7DD3FC"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.6" stop-color="#E8FDF7"/>
-      <stop offset="1" stop-color="#8FF3DC"/>
-    </linearGradient>
-    <linearGradient id="hline" gradientUnits="userSpaceOnUse" x1="265" y1="258" x2="883" y2="258">
-      <stop offset="0" stop-color="#56E0C1" stop-opacity="0.06"/>
-      <stop offset="0.45" stop-color="#7DD3FC" stop-opacity="0.62"/>
-      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.06"/>
-    </linearGradient>
-    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#56E0C1" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#E0FAFF" stop-opacity="0.9"/>
-      <stop offset="1" stop-color="#56E0C1" stop-opacity="0"/>
-    </linearGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" fill="none" stroke="#CFFAFE" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="chipglow" x="-50%" y="-50%" width="200%" height="200%">
-      <feDropShadow dx="0" dy="0" stdDeviation="9" flood-color="#56E0C1" flood-opacity="0.5"/>
-    </filter>
-  </defs>
-
-  <rect width="1200" height="340" rx="26" fill="url(#bg)"/>
-  <rect width="1200" height="340" rx="26" fill="url(#grid)"/>
-
-  <rect y="0" width="1200" height="3" fill="url(#sheen)">
-    <animate attributeName="x" values="-1200;1200" dur="7.5s" repeatCount="indefinite"/>
-  </rect>
-
-  <g fill="none" stroke="url(#sig)" stroke-opacity="0.42" stroke-width="2" stroke-linecap="round">
-    <path d="M0 64h94l38 38h58" stroke-dasharray="13 9">
-      <animate attributeName="stroke-dashoffset" values="0;-220" dur="6s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0 250h68l46-46h62" stroke-dasharray="13 9">
-      <animate attributeName="stroke-dashoffset" values="0;-220" dur="7.4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1200 66h-94l-38 38h-56" stroke-dasharray="13 9">
-      <animate attributeName="stroke-dashoffset" values="0;220" dur="6.9s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1200 254h-66l-46-46h-60" stroke-dasharray="13 9">
-      <animate attributeName="stroke-dashoffset" values="0;220" dur="8.2s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1092 0v52" stroke-opacity="0.25"/>
-    <path d="M118 340v-56" stroke-opacity="0.25"/>
-  </g>
-
-  <g filter="url(#glow)">
-    <circle r="3.6" fill="#6EE7D8">
-      <animateMotion dur="6s" repeatCount="indefinite" path="M0 64h94l38 38h58" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-    </circle>
-    <circle r="3.6" fill="#7DD3FC">
-      <animateMotion dur="8.2s" repeatCount="indefinite" path="M1200 254h-66l-46-46h-60" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-    </circle>
-    <circle r="3.2" fill="#A78BFA">
-      <animateMotion dur="7.4s" repeatCount="indefinite" path="M0 250h68l46-46h62" keyPoints="0;1" keyTimes="0;1" calcMode="linear"/>
-    </circle>
-  </g>
-
-  <g transform="translate(80 96)" filter="url(#chipglow)">
-    <rect width="136" height="136" rx="26" fill="#040A14" fill-opacity="0.8" stroke="#75E6D0" stroke-width="2"/>
-    <rect x="31" y="31" width="74" height="74" rx="12" fill="#0A4C59" stroke="#A7F3D0" stroke-width="2"/>
-    <path d="M45 53h17v29h29M53 44v16m29-16v16M53 105v16m29-16v16M31 53H14m17 29H14m91-29h17m-17 29h17" fill="none" stroke="#D1FAE5" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="79" cy="51" r="5" fill="#7DD3FC">
-      <animate attributeName="opacity" values="1;0.15;1" dur="1.6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="96" cy="105" r="3.4" fill="#6EE7D8">
-      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/>
-    </circle>
-  </g>
-
-  <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <text x="262" y="130" fill="url(#name)" font-size="50" font-weight="750" letter-spacing="3.5">EMBEDDED SYSTEMS</text>
-    <text x="265" y="176" fill="#A7F3D0" font-size="21" font-weight="600" letter-spacing="2.2">RTOS · LINUX BSP · AUTOSAR · EDGE AI</text>
-    <g>
-      <rect x="265" y="198" width="12" height="21" rx="2" fill="#56E0C1">
-        <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
-      </rect>
-      <text x="288" y="216" fill="#D8F3F5" font-size="19" letter-spacing="0.4">build · flash · debug · repeat</text>
-    </g>
-  </g>
-
-  <g transform="translate(1088 96)" fill="none" stroke="#B6F2E8" stroke-width="2" stroke-opacity="0.6">
-    <circle cx="0" cy="0" r="42" stroke-dasharray="5 11" stroke-opacity="0.5">
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="18s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="0" cy="0" r="24" stroke-opacity="0.75"/>
-    <path d="M-58 0h26M32 0h26M0-58v26M0 32v26" stroke-opacity="0.4"/>
-  </g>
-
-  <path d="M265 258h618" fill="none" stroke="url(#hline)" stroke-width="1.6"/>
-  <circle r="2.6" fill="#7DD3FC" filter="url(#glow)">
-    <animateMotion dur="5.5s" repeatCount="indefinite" path="M265 258h618"/>
-  </circle>
-
-  <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', sans-serif">
-    <circle cx="268" cy="294" r="4.2" fill="#4ADE80">
-      <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="282" y="300" fill="#8FB3C0" font-size="15" letter-spacing="1.8">OPEN TO COLLABORATION</text>
-  </g>
-
-  <rect y="337" width="1200" height="3" fill="url(#sig)" opacity="0.55"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+<title id="title">Embedded Systems — Hardware meets software</title><desc id="desc">Animated embedded workbench with a processor, flowing circuit signals, terminal cursor and logic analyzer. Decorative waveforms are not live hardware measurements.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#080e1b"/><stop offset="1" stop-color="#0d172a"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#00e5c0" stop-opacity=".14"/><stop offset="1" stop-color="#00e5c0" stop-opacity="0"/></radialGradient>
+<linearGradient id="titleFill"><stop stop-color="#f1f5ff"/><stop offset="1" stop-color="#88e7e1"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#6587ad" stroke-opacity=".08"/></pattern>
+<filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="round"><rect x="1" y="1" width="1198" height="538" rx="22"/></clipPath>
+</defs>
+<style>@media (prefers-reduced-motion:reduce){.rotate,.cursor,.pulse{animation:none!important}}.rotate{transform-box:fill-box;transform-origin:center;animation:spin 30s linear infinite}.cursor{animation:blink 1.2s steps(2,end) infinite}.pulse{animation:breathe 3s ease-in-out infinite}@keyframes spin{to{transform:rotate(360deg)}}@keyframes blink{50%{opacity:0}}@keyframes breathe{50%{opacity:.3}}</style>
+<g clip-path="url(#round)"><rect width="1200" height="540" fill="url(#bg)"/><rect width="1200" height="540" fill="url(#grid)"/><ellipse cx="877" cy="230" rx="340" ry="290" fill="url(#halo)"/>
+<path d="M0 48H1200M0 390H1200M0 506H1200" stroke="#203047"/>
+<g font-family="Consolas,monospace" font-size="12" letter-spacing="2" fill="#8095b3"><circle cx="28" cy="24" r="5" fill="#ff657a"/><circle cx="47" cy="24" r="5" fill="#ffd077"/><circle cx="66" cy="24" r="5" fill="#54e5b4"/><text x="94" y="29">EMBEDDED / WORKBENCH</text><text x="963" y="29" fill="#52e1c1">● SIGNAL CONNECTED</text></g>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="48" y="103" fill="#55dfc5" font-size="13" letter-spacing="5">HARDWARE MEETS SOFTWARE</text><text x="43" y="175" fill="url(#titleFill)" font-size="66" font-weight="800" letter-spacing="-2">EMBEDDED</text><text x="43" y="243" fill="#eff4ff" font-size="66" font-weight="800" letter-spacing="-2">SYSTEMS<tspan fill="#57e3c5">_</tspan></text><text x="48" y="280" fill="#94a8c4" font-size="17">Close to the metal. Open to the world.</text></g>
+<g font-family="Consolas,monospace" font-size="13"><rect x="48" y="306" width="475" height="54" rx="8" fill="#080d17" stroke="#263950"/><text x="65" y="328" fill="#647d9e">~/firmware</text><text x="65" y="348" fill="#5be5c4">❯ <tspan fill="#d1dded">build &amp;&amp; flash &amp;&amp; debug</tspan></text><rect class="cursor" x="263" y="336" width="8" height="14" fill="#5be5c4"/></g>
+<g fill="none" stroke="#43cbb3" stroke-opacity=".3" stroke-width="1.5"><path d="M738 140H686L650 104H602"/><path d="M738 188H678L646 220H616"/><path d="M738 268H680L646 302H604"/><path d="M1006 140h60l34-34h100"/><path d="M1006 220h70l32 32h92"/><path d="M1006 300h44l40 40h110"/></g>
+<circle r="3" fill="#54e8ce" filter="url(#glow)"><animateMotion dur="3s" begin="-0s" repeatCount="indefinite" path="M738 140H686L650 104H602"/></circle><circle r="3" fill="#b698ff" filter="url(#glow)"><animateMotion dur="3.6s" begin="-1s" repeatCount="indefinite" path="M738 188H678L646 220H616"/></circle><circle r="3" fill="#54e8ce" filter="url(#glow)"><animateMotion dur="4.2s" begin="-2s" repeatCount="indefinite" path="M738 268H680L646 302H604"/></circle><circle r="3" fill="#b698ff" filter="url(#glow)"><animateMotion dur="4.8s" begin="-3s" repeatCount="indefinite" path="M1006 140h60l34-34h100"/></circle><circle r="3" fill="#54e8ce" filter="url(#glow)"><animateMotion dur="5.4s" begin="-4s" repeatCount="indefinite" path="M1006 220h70l32 32h92"/></circle><circle r="3" fill="#b698ff" filter="url(#glow)"><animateMotion dur="6s" begin="-5s" repeatCount="indefinite" path="M1006 300h44l40 40h110"/></circle>
+<g transform="translate(873 222)"><circle r="157" fill="none" stroke="#36d8bc" stroke-opacity=".12"/><circle class="rotate" r="166" fill="none" stroke="#7997cd" stroke-opacity=".35" stroke-dasharray="2 14"/><g stroke="#577791" stroke-width="5"><path d="M-88 -134v18M-88 116v18M-134 -88h18M116 -88h18"/><path d="M-72 -134v18M-72 116v18M-134 -72h18M116 -72h18"/><path d="M-56 -134v18M-56 116v18M-134 -56h18M116 -56h18"/><path d="M-40 -134v18M-40 116v18M-134 -40h18M116 -40h18"/><path d="M-24 -134v18M-24 116v18M-134 -24h18M116 -24h18"/><path d="M-8 -134v18M-8 116v18M-134 -8h18M116 -8h18"/><path d="M8 -134v18M8 116v18M-134 8h18M116 8h18"/><path d="M24 -134v18M24 116v18M-134 24h18M116 24h18"/><path d="M40 -134v18M40 116v18M-134 40h18M116 40h18"/><path d="M56 -134v18M56 116v18M-134 56h18M116 56h18"/><path d="M72 -134v18M72 116v18M-134 72h18M116 72h18"/><path d="M88 -134v18M88 116v18M-134 88h18M116 88h18"/></g><rect x="-115" y="-115" width="230" height="230" rx="20" fill="#0b1522" stroke="#43dbc0" stroke-opacity=".7"/><rect x="-99" y="-99" width="198" height="198" rx="13" fill="#101f30" stroke="#25465a"/><path d="M-76-65h36v36h-36zM-76-8h36v36h-36zM-76 49h36v16h-36zM-15-65h90M-15-43h56M-15 44h90M-15 65h56" fill="none" stroke="#456780" stroke-width="2"/><g text-anchor="middle" font-family="Consolas,monospace"><text x="27" y="3" fill="#b8fff0" font-size="32" font-weight="700">&lt;/&gt;</text><text x="27" y="25" fill="#6c9baf" font-size="10" letter-spacing="3">FIRMWARE</text></g><circle class="pulse" cx="79" cy="-80" r="4" fill="#53e9c7" filter="url(#glow)"/></g>
+<g font-family="Consolas,monospace" font-size="11" fill="#6e87a8"><text x="48" y="416" letter-spacing="2">LOGIC ANALYZER</text><text x="1056" y="416">TRACE / LOOP</text><text x="48" y="446" fill="#58dec7">CLK</text><text x="48" y="477" fill="#b49aff">DATA</text></g>
+<path d="M106 445h24v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26v-18h26v18h26" fill="none" stroke="#50d8c2" stroke-width="1.6"/>
+<path d="M106 477h54v-18h78v18h52v-18h26v18h104v-18h52v18h26v-18h104v18h78v-18h52v18h78v-18h26v18h104v-18h78v18h110" fill="none" stroke="#ab90f5" stroke-width="1.6"/>
+<rect x="106" y="423" width="2" height="65" fill="#d5fff6" opacity=".6"><animate attributeName="x" values="106;1145" dur="7s" repeatCount="indefinite"/></rect>
+<g font-family="Consolas,monospace" font-size="11" letter-spacing="2"><text x="48" y="527" fill="#8194b0">BARE METAL → RTOS → LINUX → EDGE AI</text><text x="890" y="527" fill="#5bd8c4">BUILD / FLASH / DEBUG / REPEAT</text></g></g><rect x=".5" y=".5" width="1199" height="539" rx="22" fill="none" stroke="#293c55"/></svg>
