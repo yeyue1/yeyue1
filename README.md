@@ -13,14 +13,14 @@
 
 <img src="./assets/focus.svg" width="100%" alt="Systems, connectivity and edge intelligence" />
 
-围绕嵌入式系统、通信与边缘智能持续实践，关注底层机制、工程实现与开源协作。
+Exploring embedded systems, connected devices and edge intelligence — from low-level mechanisms to practical tools and open-source collaboration.
 
 
-方向 | 工程实践
+Domain | Engineering practice
 :--- | :---
-**SYSTEMS** | 启动链路、驱动、实时系统与嵌入式 Linux
-**CONNECTIVITY** | 车载通信、工业组网、协议集成与设备升级
-**EDGE &amp; TOOLS** | 端侧推理、构建工具、系统调试与代码质量
+**SYSTEMS** | Boot flows, device drivers, real-time systems and embedded Linux
+**CONNECTIVITY** | Automotive communication, industrial networks, protocol integration and device updates
+**EDGE &amp; TOOLS** | On-device inference, build tooling, system debugging and code quality
 
 ### 02 / TOOLBOX
 
@@ -59,9 +59,9 @@
 
 
 <details>
-<summary>数据更新说明 / How these cards update</summary>
+<summary>How these cards update</summary>
 
-统计卡由服务端根据 GitHub 数据生成，受服务刷新频率与 GitHub 图片缓存影响，更新存在延迟。语言分布描述仓库代码组成；贡献数据按 GitHub 的统计规则计算。
+Cards are generated from GitHub data and refresh periodically. Service and image caches may delay updates. Language charts describe repository composition; contribution counts follow GitHub’s contribution rules.
 
 </details>
 
