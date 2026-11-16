@@ -127,7 +127,16 @@
 ## 🧩 技术栈 / Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp,python,linux,git,cmake,qt,docker,bash,vscode&amp;theme=dark" alt="tech stack" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&amp;logo=c&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&amp;logo=cplusplus&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&amp;logo=linux&amp;logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&amp;logo=cmake&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&amp;logo=qt&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&amp;logo=docker&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&amp;logo=gnubash&amp;logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&amp;logo=visualstudiocode&amp;logoColor=white" />
 </div>
 
 <div align="center">
@@ -174,28 +183,25 @@ Linux BSP
 ## 📊 GitHub 概览 / Stats
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=yeyue1&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=yeyue1&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github&amp;theme=default" />
-    <img height="168" src="https://github-readme-stats.vercel.app/api?username=yeyue1&amp;show_icons=true&amp;hide_border=true&amp;include_all_commits=true&amp;rank_icon=github" alt="stats" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yeyue1&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=yeyue1&amp;layout=compact&amp;hide_border=true&amp;langs_count=8&amp;theme=default" />
-    <img height="168" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yeyue1&amp;layout=compact&amp;hide_border=true&amp;langs_count=8" alt="top langs" />
-  </picture>
+  <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yeyue1&amp;theme=tokyonight" alt="profile details" />
 </div>
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=yeyue1&amp;hide_border=true&amp;theme=tokyonight" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=yeyue1&amp;hide_border=true&amp;theme=default" />
-    <img width="70%" src="https://streak-stats.demolab.com?user=yeyue1&amp;hide_border=true" alt="streak" />
-  </picture>
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yeyue1&amp;theme=tokyonight" alt="stats" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yeyue1&amp;theme=tokyonight" alt="repos per language" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=yeyue1&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true&amp;custom_title=Contribution%20Graph" width="100%" alt="activity" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yeyue1&amp;theme=tokyonight" alt="most commit language" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yeyue1&amp;theme=tokyonight&amp;utcOffset=8" alt="productive time" />
+</div>
+
+<div align="center">
+  <img width="68%" src="https://streak-stats.demolab.com?user=yeyue1&amp;hide_border=true&amp;theme=tokyonight" alt="streak" />
+</div>
+
+<div align="center">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=yeyue1&amp;theme=tokyo-night&amp;hide_border=true&amp;area=true" alt="activity graph" />
 </div>
 
 ## 🐍 贡献热力图 / Contribution Snake
