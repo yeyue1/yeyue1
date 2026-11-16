@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="ttl dsc">
-  <title id="ttl">花益 · HUA YI — Embedded Systems Engineer</title>
+  <title id="ttl">Embedded Systems — RTOS, Linux BSP, AUTOSAR, Edge AI</title>
   <desc id="dsc">Animated dark banner with flowing circuit traces, traveling signal pulses and a rotating dial.</desc>
 
   <defs>
@@ -18,15 +18,15 @@
       <stop offset="0.6" stop-color="#E8FDF7"/>
       <stop offset="1" stop-color="#8FF3DC"/>
     </linearGradient>
+    <linearGradient id="hline" gradientUnits="userSpaceOnUse" x1="265" y1="258" x2="883" y2="258">
+      <stop offset="0" stop-color="#56E0C1" stop-opacity="0.06"/>
+      <stop offset="0.45" stop-color="#7DD3FC" stop-opacity="0.62"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.06"/>
+    </linearGradient>
     <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#56E0C1" stop-opacity="0"/>
       <stop offset="0.5" stop-color="#E0FAFF" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#56E0C1" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="hline" gradientUnits="userSpaceOnUse" x1="265" y1="256" x2="883" y2="256">
-      <stop offset="0" stop-color="#56E0C1" stop-opacity="0.06"/>
-      <stop offset="0.45" stop-color="#7DD3FC" stop-opacity="0.62"/>
-      <stop offset="1" stop-color="#A78BFA" stop-opacity="0.06"/>
     </linearGradient>
     <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
       <path d="M34 0H0V34" fill="none" stroke="#CFFAFE" stroke-opacity="0.05" stroke-width="1"/>
@@ -89,13 +89,13 @@
   </g>
 
   <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
-    <text x="262" y="132" fill="url(#name)" font-size="52" font-weight="750" letter-spacing="1.5">花益 · HUA YI</text>
-    <text x="265" y="178" fill="#A7F3D0" font-size="23" font-weight="600" letter-spacing="2.4">EMBEDDED SYSTEMS ENGINEER</text>
+    <text x="262" y="130" fill="url(#name)" font-size="50" font-weight="750" letter-spacing="3.5">EMBEDDED SYSTEMS</text>
+    <text x="265" y="176" fill="#A7F3D0" font-size="21" font-weight="600" letter-spacing="2.2">RTOS · LINUX BSP · AUTOSAR · EDGE AI</text>
     <g>
-      <rect x="265" y="200" width="12" height="21" rx="2" fill="#56E0C1">
+      <rect x="265" y="198" width="12" height="21" rx="2" fill="#56E0C1">
         <animate attributeName="opacity" values="1;0;1" dur="1.15s" repeatCount="indefinite"/>
       </rect>
-      <text x="288" y="218" fill="#D8F3F5" font-size="19" letter-spacing="0.4">RTOS Kernel · Linux BSP · AUTOSAR BSW · Industrial IoT · Edge AI</text>
+      <text x="288" y="216" fill="#D8F3F5" font-size="19" letter-spacing="0.4">build · flash · debug · repeat</text>
     </g>
   </g>
 
@@ -107,16 +107,16 @@
     <path d="M-58 0h26M32 0h26M0-58v26M0 32v26" stroke-opacity="0.4"/>
   </g>
 
-  <path d="M265 256h618" fill="none" stroke="url(#hline)" stroke-width="1.6"/>
+  <path d="M265 258h618" fill="none" stroke="url(#hline)" stroke-width="1.6"/>
   <circle r="2.6" fill="#7DD3FC" filter="url(#glow)">
-    <animateMotion dur="5.5s" repeatCount="indefinite" path="M265 256h618"/>
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M265 258h618"/>
   </circle>
 
   <g font-family="Inter, 'Segoe UI', 'Microsoft YaHei', sans-serif">
-    <circle cx="268" cy="292" r="4.2" fill="#4ADE80">
+    <circle cx="268" cy="294" r="4.2" fill="#4ADE80">
       <animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/>
     </circle>
-    <text x="282" y="298" fill="#8FB3C0" font-size="15" letter-spacing="1.6">OPEN TO COLLABORATION  ·  github.com/yeyue1</text>
+    <text x="282" y="300" fill="#8FB3C0" font-size="15" letter-spacing="1.8">OPEN TO COLLABORATION</text>
   </g>
 
   <rect y="337" width="1200" height="3" fill="url(#sig)" opacity="0.55"/>
