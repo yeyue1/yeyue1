@@ -113,7 +113,7 @@
 </td>
 <td valign="top">
 
-### [Closed-loop Data Augmentation](https://github.com/yeyue1/Autosar-CP-Architecture-Framework-Laboratory)
+### [Closed-loop Data Augmentation](https://github.com/yeyue1/An-Iterative-Multi-Generator-Data-Augmentation-Framework)
 闭环数据增强实验框架
 
 多生成器 · 难度自适应配额 · 双门控筛选 · 收敛控制
